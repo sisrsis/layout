@@ -1,0 +1,129 @@
+@charset "utf-8";
+* {
+    /* margin-top: 0px; */
+padding: 0;
+margin: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+.wapper-main{
+    width: 100%;
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 60%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+position: relative;
+}
+.buttom-left{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    position: relative;
+}
+.sidebar-content-l{
+    /* background-color: chocolate; */
+    position: absolute;
+    margin-left: -69%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    height: 92%;
+}
+.buttom-swing{
+    margin-bottom: 16% !important;
+}
+.buttom-right{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2%;
+    position: relative;
+}
+.buttom-content{
+    display: flex;
+    flex-direction: column;
+}
+.buttom-dow{
+    position: absolute;
+bottom: 10%;
+}
+.sidebar-content{
+    /* background-color: chocolate; */
+    position: absolute;
+    margin-right: -72%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    height: 92%;
+}
+.slider-top{
+    width: 104%;
+    height: 34%;
+    background-color: aqua;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.slider-buttom{
+    width: 104%;
+    height: 34%;
+    background-color: aqua;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.right{
+    width: 30%;
+}
+
+
+#dev_left {
+    width: 22%;
+    float: left;
+}
+
+#dev_right {
+    width: 22%;
+    float: right;
+    margin-right: 33%;
+}
+
+.button_felid_left {
+    width: 100%;
+    background-color: mediumorchid;
+    border-width: 0px;
+    border-radius: 4px;
+    margin-top: 4px;
+    display: block;
+    color: white;
+}
+
+.button_felid_left:active {
+    background-color: rgba(123, 14, 134, 1.00);
+}
+
+.button_felid_right {
+    width: 100%;
+    background-color: mediumorchid;
+    border-width: 0px;
+    border-radius: 4px;
+    margin-top: 4px;
+    display: block;
+    color: white;
+}
+
+.button_felid_right:active {
+    background-color: rgba(123, 14, 134, 1.00);
+}
